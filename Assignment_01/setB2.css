@@ -1,0 +1,48 @@
+#plant-list {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+}
+
+.non-flowering {
+    color: green;
+}
+
+.flowering {
+    color: blue;
+}
+
+.sub-list {
+    margin-left: 20px;
+}
+
+.plant {
+    margin: 5px 0;
+}
+
+.fern {
+    font-style: italic;
+}
+
+.spore {
+    text-transform: uppercase;
+}
+
+.lilly {
+    text-decoration: underline;
+}
+
+.rose {
+    font-weight: bold;
+}
+
+.rose-types {
+    margin-left: 40px;
+}
+
+.red-rose {
+    color: red;
+}
+
+.pink-rose {
+    color: pink;
+}
