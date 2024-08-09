@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 Set B Q1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+        }
+
+        #sidebar {
+            height: 100%;
+            background-color: #37474F;
+        }
+
+        #sidebar .nav-link {
+            color: #CFD8DC;
+            border-bottom: 1px solid #455A64;
+        }
+
+        #sidebar .nav-link:hover {
+            background-color: #455A64;
+        }
+
+        #sidebar .nav-link i {
+            margin-right: 10px;
+        }
+
+        .top-bar {
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+
+        .user-info a {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex" id="viewport">
+        <nav id="sidebar" class="bg-dark">
+            <header class="bg-secondary text-white text-center py-3">
+                <a href="#" class="text-white text-decoration-none">My App</a>
+            </header>
+            <ul class="nav flex-column p-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-link"></i> Shortcuts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-th-large"></i> Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-calendar-alt"></i> Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-cogs"></i> Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-comment-dots"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content" class="flex-grow-1">
+            <div class="top-bar d-flex justify-content-end">
+                <div class="user-info">
+                    <a href="#"><i class="fas fa-bell"></i></a>
+                    <a href="#">Test User</a>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <h1>Simple Sidebar</h1>
+                <p>
+                    Make sure to keep all page content within the
+                    <code class="text-danger">#content</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
