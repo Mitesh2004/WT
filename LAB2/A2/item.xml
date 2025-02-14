@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="itemstyle.css"?>
+
+<Items>
+    <Item>
+        <ItemName>Resistor</ItemName>
+        <ItemPrice>10.00</ItemPrice>
+        <Quantity>5</Quantity>
+    </Item>
+    <Item>
+        <ItemName>Capacitor</ItemName>
+        <ItemPrice>25.00</ItemPrice>
+        <Quantity>1</Quantity>
+    </Item>
+    <Item>
+        <ItemName>Inductor</ItemName>
+        <ItemPrice>20.00</ItemPrice>
+        <Quantity>30</Quantity>
+    </Item>
+    <Item>
+        <ItemName>Diode</ItemName>
+        <ItemPrice>2</ItemPrice>
+        <Quantity>1</Quantity>
+    </Item>
+    <Item>
+        <ItemName>Transistor</ItemName>
+        <ItemPrice>15.00</ItemPrice>
+        <Quantity>40</Quantity>
+    </Item>
+</Items>

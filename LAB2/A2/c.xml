@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MovieCDStore>
+    <Classical>
+        <Movie>
+            <MovieTitle>Casablanca</MovieTitle>
+            <ActorName>Humphrey Bogart</ActorName>
+            <ReleaseYear>1942</ReleaseYear>
+        </Movie>
+        <Movie>
+            <MovieTitle>Gone with the Wind</MovieTitle>
+            <ActorName>Clark Gable</ActorName>
+            <ReleaseYear>1939</ReleaseYear>
+        </Movie>
+    </Classical>
+    
+    <Horror>
+        <Movie>
+            <MovieTitle>The Exorcist</MovieTitle>
+            <ActorName>Linda Blair</ActorName>
+            <ReleaseYear>1973</ReleaseYear>
+        </Movie>
+        <Movie>
+            <MovieTitle>A Nightmare on Elm Street</MovieTitle>
+            <ActorName>Robert Englund</ActorName>
+            <ReleaseYear>1984</ReleaseYear>
+        </Movie>
+    </Horror>
+    
+    <Action>
+        <Movie>
+            <MovieTitle>Die Hard</MovieTitle>
+            <ActorName>Bruce Willis</ActorName>
+            <ReleaseYear>1988</ReleaseYear>
+        </Movie>
+        <Movie>
+            <MovieTitle>Mad Max: Fury Road</MovieTitle>
+            <ActorName>Tom Hardy</ActorName>
+            <ReleaseYear>2015</ReleaseYear>
+        </Movie>
+    </Action>
+</MovieCDStore>

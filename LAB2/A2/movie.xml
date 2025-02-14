@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MovieInfo>
+    <Movie>
+        <MovieNo>1</MovieNo>
+        <MovieTitle>Inception</MovieTitle>
+        <ActorName>Leonardo DiCaprio</ActorName>
+        <ReleaseYear>2010</ReleaseYear>
+    </Movie>
+    <Movie>
+        <MovieNo>2</MovieNo>
+        <MovieTitle>The Dark Knight</MovieTitle>
+        <ActorName>Christian Bale</ActorName>
+        <ReleaseYear>2008</ReleaseYear>
+    </Movie>
+    <Movie>
+        <MovieNo>3</MovieNo>
+        <MovieTitle>Interstellar</MovieTitle>
+        <ActorName>Matthew McConaughey</ActorName>
+        <ReleaseYear>2014</ReleaseYear>
+    </Movie>
+    <Movie>
+        <MovieNo>4</MovieNo>
+        <MovieTitle>Avatar</MovieTitle>
+        <ActorName>Sam Worthington</ActorName>
+        <ReleaseYear>2009</ReleaseYear>
+    </Movie>
+    <Movie>
+        <MovieNo>5</MovieNo>
+        <MovieTitle>Gladiator</MovieTitle>
+        <ActorName>Russell Crowe</ActorName>
+        <ReleaseYear>2000</ReleaseYear>
+    </Movie>
+</MovieInfo>
