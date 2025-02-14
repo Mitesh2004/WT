@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Div Example</title>
+</head>
+<body>
+
+    <div id="myDiv">
+        <h2>This is a removable div</h2>
+        <p>Click the button below to remove this section.</p>
+    </div>
+
+    <button onclick="removeDiv()">Remove Div</button>
+
+    <script>
+        function removeDiv() {
+            let div = document.querySelector("#myDiv");
+            if (div) {
+                div.remove();
+            }
+        }
+    </script>
+
+</body>
+</html>
+

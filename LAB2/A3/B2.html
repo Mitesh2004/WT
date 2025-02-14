@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Text Before & After Image</title>
+</head>
+<body>
+
+    <img id="myImage" src="" alt="Sample Image">
+
+    <script>
+        // Select the image
+        let img = document.querySelector("#myImage");
+
+        // Insert text before the image
+        img.before("This is before the image. ");
+
+        // Insert text after the image
+        img.after(" This is after the image.");
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alert Example</title>
+</head>
+<body>
+
+    <script>
+        // Display initial alert message
+        alert("Exams are near, have you started preparing?");
+
+        // Ask for user input
+        var response = prompt("Enter Yes or No:");
+
+        // Process user input
+        if (response !== null) { // Check if user entered something
+            response = response.trim().toLowerCase(); // Normalize input
+
+            if (response === "yes") {
+                confirm("Great! Keep up the good work.");
+            } else if (response === "no") {
+                confirm("Start preparing soon. All the best!");
+            } else {
+                alert("Please enter a valid response (Yes or No).");
+            }
+        } else {
+            alert("You didn't enter anything.");
+        }
+    </script>
+
+</body>
+</html>
+

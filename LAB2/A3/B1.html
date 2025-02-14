@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Form</title>
+</head>
+<body>
+
+    <h2>Membership Form</h2>
+    <form onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            
+            let usernamePattern = /^[a-zA-Z0-9]{5,}$/;  // At least 5 alphanumeric characters
+            let passwordPattern = /^(?=.*[A-Za-z])(?=.*\d).{8,}$/; // At least 8 chars, 1 letter, 1 number
+
+            if (!usernamePattern.test(username)) {
+                alert("Username must be at least 5 characters and contain only letters and numbers.");
+                return false;
+            }
+
+            if (!passwordPattern.test(password)) {
+                alert("Password must be at least 8 characters long and contain at least one letter and one number.");
+                return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+
+</body>
+</html>
+

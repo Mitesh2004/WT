@@ -1,0 +1,35 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append Example</title>
+</head>
+<body>
+
+    <p id="para">This is a paragraph.</p>
+    <ol id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+    
+    <button onclick="appendText()">Append Text</button>
+    <button onclick="appendListItem()">Add List Item</button>
+
+    <script>
+        function appendText() {
+            let para = document.querySelector("#para");
+            para.append(" This is the appended text.");
+        }
+
+        function appendListItem() {
+            let list = document.querySelector("#list");
+            let newItem = document.createElement("li");
+            newItem.append("New Item");
+            list.append(newItem);
+        }
+    </script>
+
+</body>
+</html>
+

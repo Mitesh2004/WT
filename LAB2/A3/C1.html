@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Name Validation</title>
+    <style>
+        #studentName {
+            font-size: 16px;
+            color: black;
+        }
+        #studentImage {
+            display: none;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body onload="pageLoaded()">
+
+    <h2>Enter Student Name:</h2>
+    <input type="text" id="studentName" placeholder="Enter name" onblur="validateName()" onmouseup="resetImage()">
+    
+    <br><br>
+    <img id="studentImage" src="https://via.placeholder.com/100" 
+         onmouseover="increaseSize()" onmouseout="resetSize()" onclick="changeSize()">
+
+    <script>
+        function pageLoaded() {
+            alert("Page has loaded successfully!"); // onload event
+        }
+
+        function validateName() {
+            let nameField = document.getElementById("studentName");
+            let image = document.getElementById("studentImage");
+
+            if (nameField.value.trim() !== "") {
+                nameField.style.color = "red";
+                nameField.style.fontSize = "18px";
+            } else {
+                image.style.display = "block"; // Show image when field is empty
+            }
+        }
+
+        function increaseSize() {
+            let img = document.getElementById("studentImage");
+            img.style.width = "150px";
+            img.style.height = "150px";
+        }
+
+        function resetSize() {
+            let img = document.getElementById("studentImage");
+            img.style.width = "100px";
+            img.style.height = "100px";
+        }
+
+        function changeSize() {
+            let img = document.getElementById("studentImage");
+            img.style.width = "200px";
+            img.style.height = "200px";
+        }
+
+        function resetImage() {
+            let img = document.getElementById("studentImage");
+            img.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
+
